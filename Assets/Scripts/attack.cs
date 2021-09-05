@@ -28,7 +28,7 @@ public class attack : MonoBehaviour
         cooldownTimer = 0;
 
         fireballs[FindFireball()].transform.position = firePoint.position;
-        fireballs[FindFireball()].GetComponent<projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
+        fireballs[FindFireball()].GetComponent<projectile>().SetDirection(-Mathf.Sign(transform.localScale.x));
     }
     private int FindFireball(){
         for (int i = 0; i < fireballs.Length; i++){
