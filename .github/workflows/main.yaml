@@ -2,6 +2,10 @@ name: Actions 😎
 
 on: [push, pull_request]
 
+env: 
+  PROJECT_NAME: WebGL
+
+
 jobs:
   build:
     name: Build my project ✨
@@ -35,3 +39,12 @@ jobs:
         with:
           name: Build
           path: build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          repository-name: valley-games/levinthevalley
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build/WebGL/${{ env.PROJECT_NAME }} # The folder the action should deploy.
+          token: ${{ secrets.THE_GITHUB_PAT }}
+
