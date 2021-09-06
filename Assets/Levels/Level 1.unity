@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &248364776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &661420578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1086,7 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &976916687
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &1001806520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1416,7 +1416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &1203825167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1581,7 +1581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &1393542522
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1746,7 +1746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &1555708307
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2159,7 +2159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &1938509620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2324,7 +2324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &2040949542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2489,7 +2489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09397e9d5673fa04ab8ee3667bb8d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!212 &2074264040
 SpriteRenderer:
   m_ObjectHideFlags: 0
