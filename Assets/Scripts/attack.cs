@@ -7,6 +7,7 @@ public class attack : MonoBehaviour
     public float attackCooldown;
     public Transform firePoint;
     public GameObject[] fireballs;
+    public GameObject fireball;
 
     private Animator anim;
     private controller playerMovement;  //TODO remane controller script to Controller 
@@ -29,6 +30,9 @@ public class attack : MonoBehaviour
 
         fireballs[FindFireball()].transform.position = firePoint.position;
         fireballs[FindFireball()].GetComponent<projectile>().SetDirection(-Mathf.Sign(transform.localScale.x));
+
+        //Instantiate(fireball, firePoint);
+        //fireball.GetComponent<projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
     private int FindFireball(){
         for (int i = 0; i < fireballs.Length; i++){
