@@ -8,6 +8,8 @@ public class attack : MonoBehaviour
     public Transform firePoint;
     public GameObject[] fireballs;
     public GameObject fireball;
+    private AudioSource source;
+    
 
     private Animator anim;
     private controller playerMovement;  //TODO remane controller script to Controller 
@@ -16,6 +18,7 @@ public class attack : MonoBehaviour
     private void Awake(){
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<controller>();
+        source = GetComponent<AudioSource>();
     }
     
     // Update is called once per frame
@@ -30,7 +33,8 @@ public class attack : MonoBehaviour
 
         fireballs[FindFireball()].transform.position = firePoint.position;
         fireballs[FindFireball()].GetComponent<projectile>().SetDirection(-Mathf.Sign(transform.localScale.x));
-
+        
+        source.Play();
         //Instantiate(fireball, firePoint);
         //fireball.GetComponent<projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
