@@ -18,13 +18,13 @@ public class projectile : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update(){
+    void Update(){ 
         if (hit) return;
         float movementSpeed = speed * Time.deltaTime * direction;
         transform.Translate(movementSpeed, 0, 0);
 
         lifetime += Time.deltaTime;
-        if(lifetime > 3) gameObject.SetActive(false);
+        if(lifetime > 5) gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
