@@ -52,7 +52,7 @@ public class controller : MonoBehaviour
     private void Jump(){
         if (isGrounded()){
             body.velocity= new Vector2(body.velocity.x, jumpPower);   
-                anim.SetTrigger("jump");
+            //anim.SetTrigger("jump");
         }
         else if(onWall() && !isGrounded()){
             if (horizontalInput == 0){
