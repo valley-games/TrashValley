@@ -44,7 +44,7 @@ public class controller : MonoBehaviour
             
             else body.gravityScale = initialGravityScale;
 
-            if(Input.GetKey(KeyCode.Space)) Jump();
+            if(Input.GetKey(KeyCode.UpArrow)) Jump();
         }
         else    wallJumpCooldown += Time.deltaTime;
     }
@@ -76,7 +76,8 @@ public class controller : MonoBehaviour
     }
 
     public bool canAttack(){
-        return horizontalInput == 0  && !onWall();
+        return true;
+        //return horizontalInput == 0  && !onWall();
     }
 }
 
