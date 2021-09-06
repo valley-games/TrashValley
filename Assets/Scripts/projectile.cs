@@ -11,10 +11,13 @@ public class projectile : MonoBehaviour
 
     private Animator anim;
     private BoxCollider2D boxCollider;
+    private AudioSource source;
+
     
     private void Awake(){
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,7 +36,14 @@ public class projectile : MonoBehaviour
             hit = true;
             boxCollider.enabled = false;
             anim.SetTrigger("explode");
-            if (collision.gameObject.tag == "block")  collision.gameObject.SetActive(false);
+            if (collision.gameObject.tag == "block")  {
+                //collision.gameObject.GetComponent<AudioSource>().Play();
+                //collision.gameObject.GetComponent<Renderer>().enabled = false;
+                //if(!collision.gameObject.GetComponent<AudioSource>().isPlaying) collision.gameObject.SetActive(false);
+                collision.gameObject.SetActive(false);
+                source.Play();
+            }
+
             Debug.Log(collision.gameObject.tag);
         }
     }
