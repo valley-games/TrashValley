@@ -28,12 +28,13 @@ public class projectile : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
-        if(collision.gameObject.tag == "door") return;
+        if((collision.gameObject.tag == "door") || (collision.gameObject.tag == "fireball")) return;
         else{
             hit = true;
             boxCollider.enabled = false;
             anim.SetTrigger("explode");
             if (collision.gameObject.tag == "block")  collision.gameObject.SetActive(false);
+            Debug.Log(collision.gameObject.tag);
         }
     }
 

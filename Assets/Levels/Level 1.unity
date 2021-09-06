@@ -1123,7 +1123,7 @@ GameObject:
   - component: {fileID: 248364772}
   m_Layer: 0
   m_Name: fireball
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1365,7 +1365,7 @@ GameObject:
   - component: {fileID: 289798757}
   m_Layer: 0
   m_Name: fireball holder
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3598,7 +3598,7 @@ GameObject:
   - component: {fileID: 661420574}
   m_Layer: 0
   m_Name: fireball (2)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5835,7 +5835,7 @@ GameObject:
   - component: {fileID: 976916683}
   m_Layer: 0
   m_Name: fireball (4)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6000,7 +6000,7 @@ GameObject:
   - component: {fileID: 1001806516}
   m_Layer: 0
   m_Name: fireball (6)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7016,7 +7016,7 @@ GameObject:
   - component: {fileID: 1203825163}
   m_Layer: 0
   m_Name: fireball (7)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8034,7 +8034,7 @@ GameObject:
   - component: {fileID: 1393542518}
   m_Layer: 0
   m_Name: fireball (9)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8609,7 +8609,7 @@ GameObject:
   - component: {fileID: 1555708303}
   m_Layer: 0
   m_Name: fireball (5)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10490,7 +10490,7 @@ GameObject:
   - component: {fileID: 1938509616}
   m_Layer: 0
   m_Name: fireball (1)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11673,7 +11673,7 @@ GameObject:
   - component: {fileID: 2040949538}
   m_Layer: 0
   m_Name: fireball (8)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11920,7 +11920,7 @@ GameObject:
   - component: {fileID: 2074264036}
   m_Layer: 0
   m_Name: fireball (3)
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
