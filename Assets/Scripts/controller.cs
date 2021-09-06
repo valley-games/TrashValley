@@ -76,7 +76,7 @@ public class controller : MonoBehaviour
     }
 
     public bool canAttack(){
-        return horizontalInput == 0 && isGrounded() && !onWall();
+        return horizontalInput == 0  && !onWall();
     }
 }
 

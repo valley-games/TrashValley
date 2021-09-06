@@ -8,6 +8,8 @@ public class ConstructLevel : MonoBehaviour
     public GameObject[] tiles;
     public float width;
     public float height;
+    public Transform endLevelDistance;
+    
 
     int randTile;
     
@@ -23,7 +25,7 @@ public class ConstructLevel : MonoBehaviour
             for(int y = 0; y < height; ++y)
             {
                 randTile = Random.Range(0, tiles.Length);  
-                Vector2 spawnPosition = new Vector2(x, y);
+                Vector2 spawnPosition = new Vector2(Random.Range(0.0f, endLevelDistance.position.x), y);
                 Instantiate(tiles[randTile],spawnPosition, gameObject.transform.rotation);
             }
         }

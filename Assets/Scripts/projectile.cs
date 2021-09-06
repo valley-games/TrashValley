@@ -28,9 +28,13 @@ public class projectile : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
-        hit = true;
-        boxCollider.enabled = false;
-        anim.SetTrigger("explode");
+        if(collision.gameObject.tag == "door") return;
+        else{
+            hit = true;
+            boxCollider.enabled = false;
+            anim.SetTrigger("explode");
+            if (collision.gameObject.tag == "block")  collision.gameObject.SetActive(false);
+        }
     }
 
     public void SetDirection(float _direction){
